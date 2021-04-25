@@ -2,9 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import { Button } from 'element-ui'
+import '@styles/index.scss'
+import elementComponents from '@/config/element.config'
 
-Vue.use(Button)
+Vue.use(elementComponents)
 
 Vue.config.productionTip = false
 

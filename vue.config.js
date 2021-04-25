@@ -27,9 +27,9 @@ module.exports = {
     },
     proxy: {
       '/api': {
-        target: 'http://www.shuiyue.info:12300',
+        target: 'http://www.web-jshtml.cn/productapi',
         pathRewrite: {
-          '/api': ''
+          '^/api': ''
         }
       }
     }
